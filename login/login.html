@@ -1,0 +1,87 @@
+<html>
+
+<head>
+    <title>V-Inside.pl - Logowanie...</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <link rel="stylesheet" type="text/css" href="../resources/css/login.css">
+    <link href="../resources/css/nifty.min.css" rel="stylesheet">
+    <link href="../resources/css/theme-dark.min.css" rel="stylesheet">
+    <link href="../resources/css/jquery-confirm.css" rel="stylesheet">
+    <script src="../resources/js/jquery.js"></script>
+    <script src="../resources/js/source.js"></script>
+</head>
+
+<body>
+    <div class="noCharInfo" id="noChar">
+        <center>
+            <img src="https://v-inside.pl/assets/img/xd.png" /><br>
+            <font style="color: white; text-shadow:
+		-1px -1px 0 #000,
+		 1px -1px 0 #000,
+		 -1px 1px 0 #000,
+		  1px 1px 0 #000; font-size: 24px;">
+                Aby rozpocząć rozgrywkę musisz utworzyć postać w panelu gracza.<br>V-Inside.pl
+            </font>
+        </center>
+    </div>
+    <div class="login-box-left">
+        <div class="login-box-left-content">
+            <img src="http://185.180.205.101/forum/uploads/monthly_2023_03/dasddsad.png.eb7c721e2807688cc7abe2c60ba31057.png" class="login-box-logo" style="width:300px;" />
+            <center>
+                <br><br><br><br><br><br><br><br><br><br>
+                <div class="passy">
+                    <div class="form-group">
+                        <input id="user" type="text" class="form-control" placeholder="Nazwa użytkownika (E-MAIL)"
+                               spellcheck="false" autofocus>
+                    </div><br><br>
+                    <div class="form-group">
+                        <input id="password" type="password" class="form-control" placeholder="Twoje hasło">
+                    </div>
+                </div>
+                <br />
+                <div class="pad-all text-center">
+                    <a onclick="esqueciMinhaSenha()" href="#" class="btn-link mar-rgt">Zapomniałem hasła</a>
+                    <button id="myButton">Zarejestruj!</button>
+							            <a id="btn-registrar" onclick="registrar()" href="#" class="btn-link mar-lft">Stwórz konto</a>
+		            <a id="btn-registrar" onclick="registrar()" href="#" class="btn-link mar-lft">Stwórz konto</a>
+                </div>
+                <button id="btn-entrar" onclick="entrar()" class="login-button" type="button">ZALOGUJ</button>
+            </center>
+        </div>
+    </div>
+    <div class="login-box-right">
+        <div class="login-box-right-content">
+            <p class="right-title">
+                Dzienniczek
+            </p>
+            <p class="right-subtitle">
+                San Andreas
+            </p><br><br>
+            <img src="../resources/images/timeline.png" class="right-timeline" />
+            <div class="right-date1-num">
+                18<p class="right-date2-month">luty</p>
+            </div>
+            <div class="right-date2-num">
+                19<p class="right-date2-month">luty</p>
+            </div>
+            <!--<div class="right-date2-month">
+            listopad
+            </div>-->
+            <div class="right-text">
+                <i>
+                    Od startu wprowadziliśmy wiele kluczowych poprawek aby poprawić Wasz komfort gry. Zaczynamy pracować
+                    nad dodatkowymi możliwościami skryptu.<br><br>~ekipa V-Inside.pl
+                </i>
+            </div>
+
+        </div>
+    </div>
+    <script src="../resources/js/jquery.min.js"></script>
+    <script src="../resources/js/bootstrap.min.js"></script>
+    <script src="../resources/js/nifty.min.js"></script>
+    <script src="../resources/js/loadingoverlay.min.js"></script>
+    <script src="../resources/js/jquery-confirm.js"></script>
+    <script src="login.js"></script>
+</body>
+
+</html>
